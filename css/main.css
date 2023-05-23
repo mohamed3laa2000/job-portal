@@ -1,0 +1,29 @@
+:root {
+    --main-color: #6C63FF;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: x-large;
+    color: var(--main-color);
+}
+
+.landing,
+.title {
+    color: var(--main-color);
+}
+
+.landing {
+    height: calc(100vh - 72px);
+    color: var(--main-color);
+}
+
+.landing-img,
+.about-img {
+    height: 100%;
+    width: 100%;
+}
